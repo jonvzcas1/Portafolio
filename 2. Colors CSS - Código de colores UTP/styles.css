@@ -1,0 +1,86 @@
+h1 {
+    text-align: center;
+}
+
+.container-principal {
+    background-color: aquamarine;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 80px;
+    display: grid;
+    grid-gap: 40px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:   "title         title"
+                           "container-one container-two";
+}
+
+.container-principal .title, .container-principal .pairs {
+    display: flex;
+    justify-content: center;
+}
+
+.hilo {
+    height: 300px;
+    width: 15px;
+    margin: 10px auto;
+    display: inline-block;
+}
+
+.blanco-naranja,
+.naranja,
+.blanco-verde,
+.azul,
+.blanco-azul,
+.verde,
+.blanco-cafe,
+.cafe {
+    margin: 2px;
+}
+
+.blanco-naranja {
+    background: linear-gradient(90deg, rgb(171, 178, 185), rgb(255, 255, 255)35%, rgb(255, 128, 0), rgb(165, 34, 6));
+    box-shadow: 0 0 20px 0 rgba(205, 47, 12, 0.8);
+}
+
+.naranja {
+    background: linear-gradient(90deg, hsl(24, 100%, 22%),hsl(30, 100%, 50%)50%, hsl(30, 100%, 50%)50%,hsl(24, 100%, 22%));
+    box-shadow: 0 0 20px 0 rgba(205, 47, 12, 0.8);
+}
+
+.blanco-verde {
+    background: linear-gradient(90deg, rgb(171,178,185), rgb(255, 255, 255)35%, #008f39, #0B5345);  
+    box-shadow: 0 0 20px 0 rgba(11, 83, 69, 0.8);  
+}
+
+.azul {
+    background: linear-gradient(90deg, hsl(243, 94%, 31%),hsl(206, 77%, 60%)50%,hsl(206, 77%, 60%)50%,hsl(243, 94%, 31%));
+    box-shadow: 0 0 20px 0 rgba(8, 14, 75, 0.8);
+}
+
+.blanco-azul {
+    background: linear-gradient(90deg, rgb(171,178,185), rgb(255, 255, 255)40%, #39A4F9, #0000ff);
+    box-shadow: 0 0 20px 0 rgba(8, 14, 75, 0.8);
+}
+
+.verde {
+    background: linear-gradient(90deg, hsl(168, 76%, 19%),hsl(145, 61%, 69%)50%,hsl(145, 61%, 69%)50%, hsl(168, 76%, 19%));
+    box-shadow: 0 0 20px 0 rgba(11, 83, 69, 0.8);  
+}
+    
+
+.blanco-cafe {
+    background: linear-gradient(90deg, rgb(171, 178, 185), rgb(255, 255, 255),50%, rgb(194, 57, 15), rgb(194, 57, 15));
+    box-shadow: 0 0 20px 0 rgba(45, 30, 3, 0.8);  
+}
+
+.cafe {
+    background: linear-gradient(90deg, hsl(30, 100%, 25%), hsl(24, 71%, 77%)50%, hsl(24, 71%, 77%)50%, hsl(30, 100%, 25%));
+    box-shadow: 0 0 20px 0 rgba(45, 30, 3, 0.8); 
+}
+
+.sleeve {
+    width: 20px;
+    height: 220px;
+    background-color: rgba(255, 255, 255, 40%);
+}
