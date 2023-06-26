@@ -99,10 +99,6 @@ footer {
   text-align: center;
 }
 
-.address {
-  margin-bottom: 5px;
-}
-
 a {
   color: black;
   text-decoration: none;
@@ -113,11 +109,11 @@ a:visited {
 }
 
 a:hover {
-  color: brown;
+  color: rgb(124, 205, 18);
 }
 
 a:active {
-  color: brown;
+  color: rgb(124, 205, 18);
 }
 
 #icon-phone, #icon-github {
